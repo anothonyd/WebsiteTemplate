@@ -30,7 +30,7 @@ const Navigation = () => {
               )}
             </button>
           </div>
-          <div className="flex justify-between items-center py-4">
+          <div className="flex justify-between items-center py-3">
             {/* Logo */}
             <div>
               <img src="/src/assets/react.svg" alt="Logo" className="h-8" />
