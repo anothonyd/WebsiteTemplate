@@ -80,24 +80,38 @@ const Navigation = () => {
           <div className={`max-w-7xl w-full mx-auto md:flex md:justify-center hidden `}>
             <ul className="md:flex items-center">
               <li className='group flex p-3'>
-                <a href="/">Home</a>
-                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'></div>
+                <a href="/"className='group-hover:text-blue-800'>Home</a>
+                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'>
+                  <div className='flex items-center justify-center w-full'><h1 className='text-2xl'>HOME</h1></div>
+                </div>
               </li>
               <li className='group flex p-3'>
-                <a href="/">About</a>
-                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'></div>
+                <a href="/"className='group-hover:text-blue-800'>About</a>
+                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'>
+                  <div className='flex items-center justify-center w-full'><h1 className='text-2xl'>ABOUT</h1></div>
+
+                </div>
               </li>
               <li className='group flex p-3'>
-                <a href="/">Contact</a>
-                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'></div>
+                <a href="/" className='group-hover:text-blue-800'>Contact</a>
+                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'>
+                  <div className='flex items-center justify-center w-full'><h1 className='text-2xl'>CONTACT</h1></div>
+
+                </div>
               </li>
               <li className='group flex p-3'>
-                <a href="/">Services</a>
-                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'></div>
+                <a href="/"className='group-hover:text-blue-800'>Services</a>
+                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'>
+                  <div className='flex items-center justify-center w-full'><h1 className='text-2xl'>SERVICES</h1></div>
+
+                </div>
               </li>
               <li className='group flex p-3'>
-                <a href="/">Products</a>
-                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'></div>
+                <a href="/"className='group-hover:text-blue-800'>Products</a>
+                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'>
+                  <div className='flex items-center justify-center w-full'><h1 className='text-2xl'>PRODUCTS</h1></div>
+
+                </div>
               </li>
             </ul>
           </div>
