@@ -78,18 +78,26 @@ const Navigation = () => {
         {/* Navbar Links */}
         <div className='w-full bg-slate-100'>
           <div className={`max-w-7xl w-full mx-auto md:flex md:justify-center hidden `}>
-            <ul className="md:flex items-center space-x-4 p-3">
-              <li>
+            <ul className="md:flex items-center">
+              <li className='group flex p-3'>
                 <a href="/">Home</a>
+                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'></div>
               </li>
-              <li>
-                <a href="/about">About</a>
+              <li className='group flex p-3'>
+                <a href="/">About</a>
+                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'></div>
               </li>
-              <li>
-                <a href="/services">Services</a>
+              <li className='group flex p-3'>
+                <a href="/">Contact</a>
+                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'></div>
               </li>
-              <li>
-                <a href="/contact">Contact</a>
+              <li className='group flex p-3'>
+                <a href="/">Services</a>
+                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'></div>
+              </li>
+              <li className='group flex p-3'>
+                <a href="/">Products</a>
+                <div className='absolute w-full left-0 hidden group-hover:flex transition-all duration-500 mt-9 h-[400px] bg-slate-400'></div>
               </li>
             </ul>
           </div>
