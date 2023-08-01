@@ -1,4 +1,4 @@
-import Footer from "./views/section/footer"
+import Footer from "./views/section/Footer"
 
 function App() {
 
